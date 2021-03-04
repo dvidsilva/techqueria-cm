@@ -37,13 +37,20 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to Techqueria
         </h1>
+        <p>We're a community of Latinx professionals in the tech industry techqueria&nbsp;
+          <a href="https://twitter.com/search?q=%23LatinxTechTwitter&src=hashtag_click" target="_blank">#LatinxTechTwitter </a>
+        </p>
+        <p>
+          We host and sponsor networking events and informative classes panels.
+          </p>
+        <p>Join our Discord to become a member and stay connected!</p>
 
 
 
         <div className={styles.grid}>
           <a href="https://discord.gg/qq8fYU2z3g" target="_blank" className={styles.card}>
             <h3>Discord &rarr;</h3>
-            <p>Join us on discord for fun music and chats!</p>
+            <p>Join our online community in discord for fun music and chats, and access to our classes, events and mentoring.</p>
           </a>
 
           <a href="https://www.techqueriacommunitynetwork.com/" target="_blank" className={styles.card}>
