@@ -100,13 +100,13 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        Powered by<a
+        Powered by&nbsp;<a
           href="https://twitter.com/dvidsilva"
           target={'_blank'}
         >
           @dvidsilva
         </a>
-        since 2015
+        &nbsp;since 2015
       </footer>
     </div>
   )
