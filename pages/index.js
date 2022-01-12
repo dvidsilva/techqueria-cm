@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -34,11 +35,19 @@ export default function Home() {
 
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        {/* <h1 className={styles.title}>
           Welcome to Techqueria
-        </h1>
-        <p>We're a community of Latinx professionals in the tech industry techqueria&nbsp;
-          <a href="https://twitter.com/search?q=%23LatinxTechTwitter&src=hashtag_click" target="_blank">#LatinxTechTwitter </a>
+        </h1> */}
+        <div className={styles.coverImage}>
+          <Image
+            className={styles.image}
+            src="/cover.jpeg"
+            alt="Techqueria at digital ocean in NY "
+            layout='fill'
+          />
+        </div>
+        <p><br />We're a community of Latinx professionals in the tech industry techqueria&nbsp;
+          <a className={styles.link} href="https://twitter.com/search?q=%23LatinxTechTwitter&src=hashtag_click" target="_blank">#LatinxTechTwitter </a>
         </p>
         <p>
           We host and sponsor networking events and informative classes panels.
@@ -48,25 +57,56 @@ export default function Home() {
 
 
         <div className={styles.grid}>
-          <a href="https://discord.gg/qq8fYU2z3g" target="_blank" className={styles.card}>
+          <a href="https://discord.gg/sezb2JpAyz" target="_blank" className={styles.card}>
             <h3>Discord &rarr;</h3>
             <p>Join our online community in discord for fun music and chats, and access to our classes, events and mentoring.</p>
           </a>
 
-          <a href="https://www.techqueriacommunitynetwork.com/" target="_blank" className={styles.card}>
+          <a href="https://twitter.com/techqueriacm" target="_blank" className={styles.card}>
+            <h3>Twitter &rarr;</h3>
+            <p>Follow to hear about new events and updates</p>
+          </a>
+
+          <a href="https://twitter.com/techquerianyc" target="_blank" className={styles.card}>
+            <h3>@TechqueriaNYC &rarr;</h3>
+            <p>Follow Techqueria NYC on twitter,  for local updates and events</p>
+          </a>
+
+          <a href="https://techqueria.org/join" target="_blank" className={styles.card}>
+            <h3>Slack &rarr;</h3>
+            <p>Apply to join the community on slack</p>
+          </a>
+
+          <a href="https://www.facebook.com/groups/techqueria" target="_blank" className={styles.card}>
+            <h3>Facebook Group &rarr;</h3>
+            <p>If facebook is your thing, join this group to interact with the community</p>
+          </a>
+
+
+          <a href="https://github.com/dvidsilva/techqueria-cm" target="_blank" className={styles.card}>
+            <h3>Github &rarr;</h3>
+            <p>This page is a NextJs project, if you'd like to help us improve it, PRs are welcome</p>
+          </a>
+
+
+
+
+
+          {/* <a href="https://www.techqueriacommunitynetwork.com/" target="_blank" className={styles.card}>
             <h3>Open letter to Techqueria</h3>
             <p>Letter with some requests to Techqueria!</p>
-          </a>
+          </a> */}
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="#"
+        Powered by<a
+          href="https://twitter.com/dvidsilva"
+          target={'_blank'}
         >
-          {/* Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} /> */}
+          @dvidsilva
         </a>
+        since 2015
       </footer>
     </div>
   )

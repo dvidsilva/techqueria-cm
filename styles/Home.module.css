@@ -7,6 +7,11 @@
   align-items: center;
 }
 
+.link {
+  color:#45a0d1;
+  text-decoration: none;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -14,6 +19,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.coverImage {
+  width: 100%;
+}
+
+.coverImage > div {
+  position: unset !important;
+}
+
+.coverImage .image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
 }
 
 .footer {
