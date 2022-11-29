@@ -57,7 +57,7 @@ export default function Home() {
 
 
         <div className={styles.grid}>
-          <a href="https://discord.gg/sezb2JpAyz" target="_blank" className={styles.card}>
+          <a href="https://discord.gg/N6UUk3mby2" target="_blank" className={styles.card}>
             <h3>Discord &rarr;</h3>
             <p>Join our online community in discord for fun music and chats, and access to our classes, events and mentoring.</p>
           </a>
