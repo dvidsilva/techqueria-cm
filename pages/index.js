@@ -101,7 +101,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         Powered by&nbsp;<a
-          href="https://twitter.com/dvidsilva"
+          href="https://www.youtube.com/watch?v=h0TRpGP8yH4"
           target={'_blank'}
         >
           @dvidsilva
